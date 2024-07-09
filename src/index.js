@@ -1,0 +1,1 @@
+/* nodemon (dev dependence) restarts server automatically when saved */
