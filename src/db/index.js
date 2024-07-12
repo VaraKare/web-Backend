@@ -10,8 +10,5 @@ const connectDB = async ()=>{
         process.exit(1)
     }
 }
-// when using database use try catch and async wait
-// ;()() its an iffy , always start with semicolon
 
-// if any changes happen in env variable we have to re run the code
 export default connectDB;

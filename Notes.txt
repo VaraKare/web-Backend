@@ -1,0 +1,12 @@
+* when using database use try catch and async wait
+
+* always remove '/' at the end of the cluster url of database
+
+* ;()() its an iffy , always start with semicolon, best practices
+
+* if any changes happen in env variable we have to re run the code
+
+/* nodemon (dev dependence) restarts server automatically when saved */
+
+=> MiddleWaers
+*take an example where you want to download any pdfs from my website. are you eligible > this checking process is done by MW
