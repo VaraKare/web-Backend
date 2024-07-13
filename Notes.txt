@@ -10,3 +10,8 @@
 
 => MiddleWaers
 *take an example where you want to download any pdfs from my website. are you eligible > this checking process is done by MW
+
+=> Bcrypt package
+helps to hash your password . if 123 => then 123@212jdb etc..
+
+=> JWT jsonwebtoken encrypts data and creates hash tokens
