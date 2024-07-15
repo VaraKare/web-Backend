@@ -1,8 +1,8 @@
-import { Express } from "express";
+import express  from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors"
 
-const app = new Express();
+const app =  express();
 
 app.use(cors({
     origin: process.env.CORS_ORIGIN,
@@ -15,4 +15,10 @@ app.use(express.static("public"))//folder to save defult files
 app.use(cookieParser());
 
 
+// routes import
+import userRouter from "./routes/user.routes.js";
+
+//routes decleration
+app.use("/api/v1/users", userRouter)// we are using middlewares bcz we are declearing  routes in seperate file.
+//http://localhost:8000/api/v1/users/register
 export { app }

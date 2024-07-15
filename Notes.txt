@@ -15,3 +15,6 @@
 helps to hash your password . if 123 => then 123@212jdb etc..
 
 => JWT jsonwebtoken encrypts data and creates hash tokens
+* URL: uniform resource locator
+* URI : uniform resource identifier
+* URN: uniform resource Name
